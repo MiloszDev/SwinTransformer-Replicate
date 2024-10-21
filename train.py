@@ -31,7 +31,7 @@ swin_transformer = SwinTransformer(num_classes= len(class_names),
                                    dropout_rate= 0.1,
                                    in_channels= 3,
                                    patch_size= 4,
-                                   depths= [1])
+                                   depths= [2, 2, 6, 2])
 print(swin_transformer)
 # Setup the optimizer to optimizer ViT model parameters using hyperparameters from the ViT paper
 optimizer = torch.optim.Adam(params=swin_transformer.parameters(),

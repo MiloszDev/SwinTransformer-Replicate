@@ -7,7 +7,6 @@ from torch.utils.data import Dataset, random_split, DataLoader
 from pathlib import Path
 from PIL import Image
 from typing import Tuple
-from utils import find_classes
 from typing import Dict, Tuple, List
 # 1. Subclass torch.utils.data.Dataset
 class ImageFolderCustom(Dataset):

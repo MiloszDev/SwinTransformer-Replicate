@@ -1,6 +1,6 @@
 # SwinTransformer-Replicate
 
-This project is an implementation of the Swin Transformer model, designed for replicating its architecture and training pipeline. The Swin Transformer is a state-of-the-art vision transformer architecture, known for its hierarchical feature extraction and efficiency in handling visual data.
+This project is an implementation of the Swin Transformer Research Paper, designed for replicating its architecture and training pipeline. The Swin Transformer is a state-of-the-art vision transformer architecture, known for its hierarchical feature extraction and efficiency in handling visual data.
 
 ## Project Overview
 
